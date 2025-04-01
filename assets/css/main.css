@@ -922,7 +922,8 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 5px 0; 
+  margin-top: 50px;
   scroll-margin-top: 90px;
   overflow: clip;
 }
@@ -1918,4 +1919,30 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+
+
+
+
+/* About Us */
+
+
+.about-container{
+
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.about-content-container{
+  margin:50px 150px;
+}
+
+.birth-of-company-container{
+  margin:50px 150px;
+}
+
+.meet-our-team-para{
+  margin:50px 150px;
 }
