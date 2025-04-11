@@ -139,7 +139,7 @@ h6 {
 }
 
 .footer-logo {
-  height: 80px !important;
+  height: 50px !important;
 }
 
 .contact {
@@ -1932,10 +1932,31 @@ section,
 .about-content-container {
   margin: 50px 150px;
 }
+@media (max-width: 768px) {
+  .about-content-container {
+    margin: 20px 10px !important;
+    text-align: center;
+  }
+
+  .birth-of-company-container {
+    margin: 20px 10px !important;
+    text-align: center;
+  }
+
+  .meet-our-team-para {
+    margin: 20px 10px !important;
+    text-align: center;
+  }
+}
+
 
 .birth-of-company-container {
   margin: 50px 150px;
 }
+
+
+
+
 
 .meet-our-team-para {
   margin: 50px 150px;
